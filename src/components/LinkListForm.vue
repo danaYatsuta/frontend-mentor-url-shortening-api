@@ -3,7 +3,7 @@
     <div
       class="mx-auto flex h-40 max-w-6xl -translate-y-20 items-center rounded-lg bg-dark-violet bg-shorten-mobile bg-right-top bg-no-repeat px-6"
     >
-      <form class="flex flex-col gap-4">
+      <form class="flex w-full flex-col gap-4">
         <input
           type="text"
           placeholder="Shorten a link here..."
