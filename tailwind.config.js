@@ -24,7 +24,11 @@ module.exports = {
     fontFamily: {
       poppins: ['Poppins', 'sans-serif']
     },
-    extend: {}
+    extend: {
+      backgroundImage: {
+        'shorten-mobile': 'url("./images/bg-shorten-mobile.svg")'
+      }
+    }
   },
   plugins: []
 }
