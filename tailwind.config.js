@@ -8,6 +8,7 @@ module.exports = {
 
       'cyan': 'hsl(180, 66%, 49%)',
       'dark-violet': 'hsl(257, 27%, 26%)',
+      'white': 'hsl(0, 100%, 100%)',
 
       // Secondary
 
