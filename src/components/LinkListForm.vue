@@ -12,7 +12,7 @@
       <div class="rounded-md bg-white">
         <button
           type="submit"
-          class="h-12 whitespace-nowrap rounded-md bg-cyan font-bold text-white hover:opacity-50 md:h-16 md:px-10 md:text-xl"
+          class="h-12 w-full whitespace-nowrap rounded-md bg-cyan font-bold text-white hover:opacity-50 md:h-16 md:px-10 md:text-xl"
         >
           Shorten It!
         </button>
