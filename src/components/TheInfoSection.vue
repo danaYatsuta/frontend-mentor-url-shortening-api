@@ -11,7 +11,7 @@ export default {
 <template>
   <div>
     <section class="text-center">
-      <h2 class="text-2xl font-bold text-very-dark-violet">Advanced Statistics</h2>
+      <h2 class="text-3xl font-bold text-very-dark-violet">Advanced Statistics</h2>
 
       <p class="mt-4 text-base">
         Track how your links are performing across the web with our advanced statistics dashboard.

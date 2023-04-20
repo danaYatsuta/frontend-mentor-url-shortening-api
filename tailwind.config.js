@@ -26,7 +26,8 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'shorten-mobile': 'url("./images/bg-shorten-mobile.svg")'
+        'shorten-mobile': 'url("./images/bg-shorten-mobile.svg")',
+        'boost-mobile': 'url("./images/bg-boost-mobile.svg")'
       }
     }
   },

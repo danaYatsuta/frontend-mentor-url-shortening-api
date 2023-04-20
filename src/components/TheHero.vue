@@ -1,9 +1,11 @@
 <script>
 import IllustrationWorking from './images/IllustrationWorking.vue'
+import AppButton from './AppButton.vue'
 
 export default {
   components: {
-    IllustrationWorking
+    IllustrationWorking,
+    AppButton
   }
 }
 </script>
@@ -23,9 +25,7 @@ export default {
         Build your brand's recognition and get detailed insights on how your links are performing.
       </p>
 
-      <a href="#" class="mt-8 block rounded-full bg-cyan px-10 py-4 font-bold text-white"
-        >Get Started</a
-      >
+      <AppButton class="mt-8">Get Started</AppButton>
     </div>
   </section>
 </template>
