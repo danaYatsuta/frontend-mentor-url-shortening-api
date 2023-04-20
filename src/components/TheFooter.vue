@@ -19,10 +19,12 @@ export default {
 </script>
 
 <template>
-  <footer class="flex flex-col items-center gap-10 bg-very-dark-violet py-14">
+  <footer
+    class="flex flex-col items-center justify-between gap-10 bg-very-dark-violet py-14 lg:flex-row lg:items-start lg:px-20 xl:px-40"
+  >
     <ShortlyLogo class="fill-white" />
 
-    <div class="flex flex-col gap-8">
+    <div class="flex flex-col gap-8 lg:flex-row xl:gap-20">
       <FooterLinkList>
         <template #heading>Features</template>
 
@@ -47,13 +49,13 @@ export default {
         <a href="#">Careers</a>
         <a href="#">Contact</a>
       </FooterLinkList>
-    </div>
 
-    <div class="flex gap-6">
-      <a href="#"><IconFacebook /></a>
-      <a href="#"><IconTwitter /></a>
-      <a href="#"><IconPinterest /></a>
-      <a href="#"><IconInstagram /></a>
+      <div class="flex gap-6">
+        <a href="#"><IconFacebook /></a>
+        <a href="#"><IconTwitter /></a>
+        <a href="#"><IconPinterest /></a>
+        <a href="#"><IconInstagram /></a>
+      </div>
     </div>
   </footer>
 </template>
