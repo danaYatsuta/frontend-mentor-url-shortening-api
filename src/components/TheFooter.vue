@@ -31,7 +31,6 @@ export default {
           <template #heading>Features</template>
 
           <FooterLink>Link Shortening</FooterLink>
-          <!-- <a href="#">Link Shortening</a> -->
           <FooterLink>Branded Links</FooterLink>
           <FooterLink>Analytics</FooterLink>
         </FooterLinkList>
