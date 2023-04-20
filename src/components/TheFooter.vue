@@ -1,6 +1,7 @@
 <script>
 import ShortlyLogo from './images/ShortlyLogo.vue'
 import FooterLinkList from './FooterLinkList.vue'
+import FooterLink from './FooterLink.vue'
 import IconFacebook from './icons/IconFacebook.vue'
 import IconTwitter from './icons/IconTwitter.vue'
 import IconPinterest from './icons/IconPinterest.vue'
@@ -10,6 +11,7 @@ export default {
   components: {
     ShortlyLogo,
     FooterLinkList,
+    FooterLink,
     IconFacebook,
     IconTwitter,
     IconPinterest,
@@ -28,33 +30,34 @@ export default {
       <FooterLinkList>
         <template #heading>Features</template>
 
-        <a href="#">Link Shortening</a>
-        <a href="#">Branded Links</a>
-        <a href="#">Analytics</a>
+        <FooterLink>Link Shortening</FooterLink>
+        <!-- <a href="#">Link Shortening</a> -->
+        <FooterLink>Branded Links</FooterLink>
+        <FooterLink>Analytics</FooterLink>
       </FooterLinkList>
 
       <FooterLinkList>
         <template #heading>Resources</template>
 
-        <a href="#">Blog</a>
-        <a href="#">Developers</a>
-        <a href="#">Support</a>
+        <FooterLink>Blog</FooterLink>
+        <FooterLink>Developers</FooterLink>
+        <FooterLink>Support</FooterLink>
       </FooterLinkList>
 
       <FooterLinkList>
         <template #heading>Company</template>
 
-        <a href="#">About</a>
-        <a href="#">Our Team</a>
-        <a href="#">Careers</a>
-        <a href="#">Contact</a>
+        <FooterLink>About</FooterLink>
+        <FooterLink>Our Team</FooterLink>
+        <FooterLink>Careers</FooterLink>
+        <FooterLink>Contact</FooterLink>
       </FooterLinkList>
 
       <div class="flex gap-6">
-        <a href="#"><IconFacebook /></a>
-        <a href="#"><IconTwitter /></a>
-        <a href="#"><IconPinterest /></a>
-        <a href="#"><IconInstagram /></a>
+        <FooterLink><IconFacebook /></FooterLink>
+        <FooterLink><IconTwitter /></FooterLink>
+        <FooterLink><IconPinterest /></FooterLink>
+        <FooterLink><IconInstagram /></FooterLink>
       </div>
     </div>
   </footer>
