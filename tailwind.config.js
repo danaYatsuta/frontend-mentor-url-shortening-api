@@ -27,10 +27,14 @@ module.exports = {
     extend: {
       backgroundImage: {
         'shorten-mobile': 'url("./images/bg-shorten-mobile.svg")',
-        'boost-mobile': 'url("./images/bg-boost-mobile.svg")'
+        'boost-mobile': 'url("./images/bg-boost-mobile.svg")',
+        'shorten-desktop': 'url("./images/bg-shorten-desktop.svg")'
       },
       screens: {
         '2xl': '1440px'
+      },
+      maxWidth: {
+        '6xl': '1110px'
       }
     }
   },
