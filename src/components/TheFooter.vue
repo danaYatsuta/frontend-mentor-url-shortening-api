@@ -21,9 +21,9 @@ export default {
 </script>
 
 <template>
-  <footer class="gap-10 bg-very-dark-violet py-14 px-6">
+  <footer class="bg-very-dark-violet px-6 py-14">
     <nav
-      class="mx-auto flex max-w-6xl flex-col items-center justify-between lg:flex-row lg:items-start"
+      class="mx-auto flex max-w-6xl flex-col items-center justify-between gap-10 lg:flex-row lg:items-start"
     >
       <ShortlyLogo class="fill-white" />
       <div class="flex flex-col gap-8 lg:flex-row xl:gap-20">
