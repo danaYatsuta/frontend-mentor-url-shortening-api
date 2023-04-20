@@ -8,18 +8,21 @@ export default {
 </script>
 
 <template>
-  <div class="rounded-lg bg-white p-4 text-base">
-    <div class="divide-y divide-gray/50">
-      <div class="pb-3 text-very-dark-violet">
+  <div class="items-center gap-5 rounded-lg bg-white p-4 text-base md:flex md:text-lg">
+    <div class="grow items-center justify-between divide-y divide-gray/50 md:flex md:divide-none">
+      <div class="pb-3 text-very-dark-violet md:pb-0">
         {{ url }}
       </div>
 
-      <div class="pt-3 text-cyan">
+      <div class="pt-3 text-cyan md:pt-0">
         {{ shortenedUrl }}
       </div>
     </div>
 
-    <button type="submit" class="mt-4 h-10 w-full rounded-md bg-cyan font-bold text-white">
+    <button
+      type="submit"
+      class="mt-4 h-10 w-full rounded-md bg-cyan font-bold text-white hover:opacity-50 md:mt-0 md:w-28"
+    >
       Copy
     </button>
   </div>

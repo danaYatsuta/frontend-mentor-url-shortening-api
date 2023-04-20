@@ -27,14 +27,16 @@ export default {
 </script>
 
 <template>
-  <div class="flex flex-col gap-6">
+  <div>
     <LinkListForm />
 
-    <LinkListItem
-      v-for="item in items"
-      :key="item.id"
-      :url="item.url"
-      :shortenedUrl="item.shortenedUrl"
-    />
+    <div class="mt-6 flex flex-col gap-6 md:gap-4">
+      <LinkListItem
+        v-for="item in items"
+        :key="item.id"
+        :url="item.url"
+        :shortenedUrl="item.shortenedUrl"
+      />
+    </div>
   </div>
 </template>
