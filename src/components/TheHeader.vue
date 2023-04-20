@@ -15,7 +15,7 @@ export default {
 </script>
 
 <template>
-  <header class="mx-6 pb-7 pt-10">
+  <header class="mx-6 pb-7 pt-10 md:pt-14">
     <nav class="mx-auto flex w-full max-w-6xl items-center justify-between">
       <div class="flex gap-12">
         <a href="#"><ShortlyLogo class="fill-very-dark-violet" /></a>
