@@ -28,6 +28,9 @@ module.exports = {
       backgroundImage: {
         'shorten-mobile': 'url("./images/bg-shorten-mobile.svg")',
         'boost-mobile': 'url("./images/bg-boost-mobile.svg")'
+      },
+      screens: {
+        '2xl': '1440px'
       }
     }
   },
