@@ -52,7 +52,7 @@ export default {
           <FooterLink>Contact</FooterLink>
         </FooterLinkList>
 
-        <div class="flex gap-6">
+        <div class="flex items-start gap-6">
           <FooterLink><IconFacebook /></FooterLink>
           <FooterLink><IconTwitter /></FooterLink>
           <FooterLink><IconPinterest /></FooterLink>
