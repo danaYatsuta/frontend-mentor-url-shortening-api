@@ -2,12 +2,14 @@
 import TheHeader from './components/TheHeader.vue'
 import TheHero from './components/TheHero.vue'
 import TheLinkList from './components/TheLinkList.vue'
+import TheInfoSection from './components/TheInfoSection.vue'
 
 export default {
   components: {
     TheHeader,
     TheHero,
-    TheLinkList
+    TheLinkList,
+    TheInfoSection
   }
 }
 </script>
@@ -22,6 +24,8 @@ export default {
       <div class="w-full max-w-6xl">
         <TheLinkList class="-translate-y-20" />
       </div>
+
+      <TheInfoSection class="mt-2" />
     </div>
   </main>
 </template>
