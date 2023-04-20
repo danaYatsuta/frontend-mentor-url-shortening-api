@@ -1,6 +1,10 @@
 <script>
 export default {
   props: {
+    href: {
+      type: String,
+      default: '#'
+    },
     size: {
       type: String,
       default: 'normal'
@@ -19,7 +23,7 @@ export default {
 
 <template>
   <a
-    href="#"
+    :href="href"
     class="block rounded-full bg-cyan font-bold text-white hover:opacity-50"
     :class="sizeClasses"
     ><slot></slot
