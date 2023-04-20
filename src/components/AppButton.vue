@@ -22,10 +22,9 @@ export default {
 </script>
 
 <template>
-  <a
-    :href="href"
-    class="block rounded-full bg-cyan font-bold text-white hover:opacity-50"
-    :class="sizeClasses"
-    ><slot></slot
-  ></a>
+  <div class="overflow-hidden rounded-full bg-white">
+    <a :href="href" class="block bg-cyan font-bold text-white hover:opacity-50" :class="sizeClasses"
+      ><slot></slot
+    ></a>
+  </div>
 </template>
