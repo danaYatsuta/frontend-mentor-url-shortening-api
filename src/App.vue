@@ -24,12 +24,12 @@ export default {
   <main>
     <TheHero />
 
-    <div class="mt-40 flex flex-col items-center bg-very-dark-blue/5 px-6 pb-20">
+    <div class="mt-40 flex flex-col items-center bg-very-dark-blue/5 px-6 pb-20 lg:pb-36">
       <div class="w-full max-w-6xl">
         <TheLinkList class="-translate-y-20" />
       </div>
 
-      <TheInfoSection class="mt-2" />
+      <TheInfoSection class="mt-2 md:mt-8" />
     </div>
 
     <TheBoostSection />

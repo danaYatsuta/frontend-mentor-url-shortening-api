@@ -16,7 +16,7 @@ export default {
 </script>
 
 <template>
-  <section class="relative rounded-md bg-white px-6 pb-10 text-center">
+  <section class="relative rounded-md bg-white px-6 pb-10 text-center lg:text-start">
     <div
       class="absolute left-0 right-0 top-0 mx-auto flex h-[88px] w-[88px] -translate-y-1/2 items-center justify-center rounded-full bg-dark-violet"
     >
