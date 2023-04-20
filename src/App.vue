@@ -4,6 +4,7 @@ import TheHero from './components/TheHero.vue'
 import TheLinkList from './components/TheLinkList.vue'
 import TheInfoSection from './components/TheInfoSection.vue'
 import TheBoostSection from './components/TheBoostSection.vue'
+import TheFooter from './components/TheFooter.vue'
 
 export default {
   components: {
@@ -11,7 +12,8 @@ export default {
     TheHero,
     TheLinkList,
     TheInfoSection,
-    TheBoostSection
+    TheBoostSection,
+    TheFooter
   }
 }
 </script>
@@ -32,4 +34,6 @@ export default {
 
     <TheBoostSection />
   </main>
+
+  <TheFooter />
 </template>
