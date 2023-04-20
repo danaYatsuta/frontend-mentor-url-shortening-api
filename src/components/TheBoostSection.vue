@@ -10,9 +10,9 @@ export default {
 
 <template>
   <div
-    class="flex h-[300px] flex-col items-center justify-center gap-5 bg-dark-violet bg-boost-mobile bg-right-top bg-no-repeat"
+    class="flex h-[300px] flex-col items-center justify-center gap-6 bg-dark-violet bg-boost-mobile bg-right-top bg-no-repeat md:h-[250px] md:bg-boost-desktop"
   >
-    <p class="text-3xl font-bold text-white">Boost your links today</p>
+    <p class="text-3xl font-bold text-white md:text-4xl">Boost your links today</p>
 
     <AppButton>Get Started</AppButton>
   </div>
