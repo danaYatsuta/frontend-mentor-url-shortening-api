@@ -18,7 +18,9 @@ export default {
       </p>
     </section>
 
-    <div class="mt-20 flex flex-col gap-24">
+    <div class="relative mt-20 flex flex-col gap-24">
+      <div class="absolute bottom-0 left-0 right-0 top-0 mx-auto w-2 bg-cyan"></div>
+
       <InfoCard icon="IconBrandRecognition">
         <template #heading>Brand Recognition</template>
 
