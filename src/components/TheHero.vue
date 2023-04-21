@@ -11,11 +11,11 @@ export default {
 </script>
 
 <template>
-  <div class="relative overflow-hidden md:px-6">
+  <div class="relative mx-auto max-w-screen-2xl md:px-6">
     <section
       class="mx-auto max-w-6xl items-center md:flex md:min-h-[340px] lg:min-h-[400px] xl:min-h-[480px]"
     >
-      <div class="mx-auto w-fit md:absolute md:-right-36">
+      <div class="mx-auto w-fit overflow-hidden md:absolute md:-right-32">
         <IllustrationWorking class="mx-6 h-[340px] md:mx-0 lg:h-[400px] xl:min-h-[480px]" />
       </div>
 
@@ -28,7 +28,7 @@ export default {
           More than just shorter links
         </h1>
 
-        <p class="mt-4 w-5/6 2xl:mt-2 xl:text-2xl">
+        <p class="mt-4 w-5/6 xl:text-2xl 2xl:mt-2">
           Build your brand's recognition and get detailed insights on how your links are performing.
         </p>
 
