@@ -10,6 +10,11 @@ export default {
     HeaderLink,
     IconMenu,
     AppButton
+  },
+  methods: {
+    toggleMobileMenu() {
+      this.$emit('toggleMobileMenu')
+    }
   }
 }
 </script>
@@ -27,7 +32,9 @@ export default {
         </div>
       </div>
 
-      <button class="md:hidden"><IconMenu /></button>
+      <button ref="mobileMenuButton" class="md:hidden" @click="toggleMobileMenu">
+        <IconMenu />
+      </button>
 
       <div class="hidden items-center gap-9 md:flex">
         <HeaderLink>Login</HeaderLink>

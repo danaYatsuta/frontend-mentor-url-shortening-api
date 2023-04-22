@@ -19,7 +19,8 @@ module.exports = {
       'gray': 'hsl(0, 0%, 75%)',
       'grayish-violet': 'hsl(257, 7%, 63%)',
       'very-dark-blue': 'hsl(255, 11%, 22%)',
-      'very-dark-violet': 'hsl(260, 8%, 14%)'
+      'very-dark-violet': 'hsl(260, 8%, 14%)',
+      'light-violet': '#544a6d'
     },
     fontFamily: {
       poppins: ['Poppins', 'sans-serif']
