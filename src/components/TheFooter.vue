@@ -53,10 +53,10 @@ export default {
         </FooterLinkList>
 
         <div class="flex items-start gap-6">
-          <FooterLink><IconFacebook /></FooterLink>
-          <FooterLink><IconTwitter /></FooterLink>
-          <FooterLink><IconPinterest /></FooterLink>
-          <FooterLink><IconInstagram /></FooterLink>
+          <FooterLink aria-label="Facebook page"><IconFacebook /></FooterLink>
+          <FooterLink aria-label="Twitter page"><IconTwitter /></FooterLink>
+          <FooterLink aria-label="Pinterest page"><IconPinterest /></FooterLink>
+          <FooterLink aria-label="Instagram page"><IconInstagram /></FooterLink>
         </div>
       </div>
     </nav>
