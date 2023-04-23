@@ -22,7 +22,7 @@ export default {
   >
     <div
       v-if="mobileMenuOpened"
-      class="absolute top-24 z-10 w-full transition duration-300 md:hidden"
+      class="absolute top-24 z-10 w-full transition duration-300 motion-reduce:transition-none md:hidden"
     >
       <nav
         class="mx-6 flex flex-col divide-y divide-light-violet rounded-lg bg-dark-violet px-6 py-10 font-bold text-white"
