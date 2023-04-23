@@ -27,7 +27,7 @@ export default {
           >
             More than just shorter links
           </h1>
-          <p class="mt-4 w-5/6 xl:text-2xl 2xl:mt-2">
+          <p class="mt-4 w-5/6 xl:text-xl 2xl:mt-2">
             Build your brand's recognition and get detailed insights on how your links are
             performing.
           </p>
