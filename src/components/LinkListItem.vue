@@ -24,8 +24,10 @@ export default {
 
 <template>
   <div class="items-center gap-5 rounded-lg bg-white p-4 text-base md:flex md:px-6 md:text-lg">
-    <div class="grow items-center justify-between divide-y divide-gray/50 md:flex md:divide-none">
-      <div class="pb-3 text-very-dark-violet md:pb-0">
+    <div
+      class="flex-1 items-center justify-between gap-4 divide-y divide-gray/50 overflow-hidden md:flex md:divide-none"
+    >
+      <div class="truncate pb-3 text-very-dark-violet md:pb-0">
         {{ url }}
       </div>
 
