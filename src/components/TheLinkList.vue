@@ -9,18 +9,13 @@ export default {
   },
   data() {
     return {
-      items: [
-        {
-          id: 0,
-          url: 'https://google.com',
-          shortenedUrl: 'https://short.com'
-        },
-        {
-          id: 2,
-          url: 'https://google2.com',
-          shortenedUrl: 'https://short2.com'
-        }
-      ]
+      links: [],
+      incorrectLinkError: false
+    }
+  },
+  methods: {
+    addLink(newLink) {
+      this.links.push(newLink)
     }
   }
 }
@@ -28,14 +23,17 @@ export default {
 
 <template>
   <div>
-    <LinkListForm />
+    <LinkListForm
+      :incorrect-link-error="incorrectLinkError"
+      @addLink="(newLink) => addLink(newLink)"
+    />
 
     <div class="mt-6 flex flex-col gap-6 md:gap-4">
       <LinkListItem
-        v-for="item in items"
-        :key="item.id"
-        :url="item.url"
-        :shortenedUrl="item.shortenedUrl"
+        v-for="link in links"
+        :key="link.id"
+        :url="link.url"
+        :shortenedUrl="link.shortenedUrl"
       />
     </div>
   </div>
