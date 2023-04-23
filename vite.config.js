@@ -5,6 +5,7 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/frontend-mentor-url-shortening-api/',
   plugins: [vue()],
   resolve: {
     alias: {
