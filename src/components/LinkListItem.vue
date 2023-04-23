@@ -3,6 +3,21 @@ export default {
   props: {
     url: String,
     shortenedUrl: String
+  },
+  data() {
+    return {
+      clicked: false
+    }
+  },
+  methods: {
+    copyToClipboard() {
+      navigator.clipboard.writeText(this.shortenedUrl)
+
+      this.clicked = true
+      setTimeout(() => {
+        this.clicked = false
+      }, 3000)
+    }
   }
 }
 </script>
@@ -20,10 +35,13 @@ export default {
     </div>
 
     <button
-      type="submit"
-      class="mt-4 h-10 w-full rounded-md bg-cyan font-bold text-white hover:opacity-50 md:mt-0 md:w-28"
+      @click="copyToClipboard"
+      href=""
+      class="mt-4 h-10 w-full rounded-md font-bold text-white transition-colors md:mt-0 md:w-28"
+      :class="{ 'bg-dark-violet': clicked, 'bg-cyan hover:opacity-50': !clicked }"
     >
-      Copy
+      <span v-if="!clicked">Copy</span>
+      <span v-else>Copied!</span>
     </button>
   </div>
 </template>
