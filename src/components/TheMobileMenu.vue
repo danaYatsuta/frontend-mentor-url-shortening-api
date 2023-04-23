@@ -26,6 +26,7 @@ export default {
     >
       <nav
         class="mx-6 flex flex-col divide-y divide-light-violet rounded-lg bg-dark-violet px-6 py-10 font-bold text-white"
+        aria-label="Mobile navigation"
       >
         <div class="flex flex-col items-center gap-6 pb-8">
           <a href="#">Features</a>

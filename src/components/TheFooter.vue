@@ -24,6 +24,7 @@ export default {
   <footer class="relative bg-very-dark-violet px-6 py-14">
     <nav
       class="mx-auto flex max-w-6xl flex-col items-center justify-between gap-10 lg:flex-row lg:items-start"
+      aria-label="Secondary navigation"
     >
       <ShortlyLogo class="fill-white" />
       <div class="flex flex-col gap-8 lg:flex-row xl:gap-20">

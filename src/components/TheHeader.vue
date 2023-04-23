@@ -21,7 +21,10 @@ export default {
 
 <template>
   <header class="px-6 pb-7 pt-10 md:pb-20 md:pt-12">
-    <nav class="mx-auto flex w-full max-w-6xl items-center justify-between">
+    <nav
+      class="mx-auto flex w-full max-w-6xl items-center justify-between"
+      aria-label="Primary navigation"
+    >
       <div class="flex gap-12">
         <a href="#" aria-label="Go to main page"><ShortlyLogo class="fill-very-dark-violet" /></a>
 
