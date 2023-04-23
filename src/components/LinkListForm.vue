@@ -2,7 +2,6 @@
 let id = 0
 
 export default {
-  props: {},
   data() {
     return {
       link: '',

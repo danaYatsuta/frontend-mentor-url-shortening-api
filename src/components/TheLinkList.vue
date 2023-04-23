@@ -10,7 +10,6 @@ export default {
   data() {
     return {
       links: [],
-      incorrectLinkError: false
     }
   },
   methods: {
@@ -24,7 +23,6 @@ export default {
 <template>
   <div>
     <LinkListForm
-      :incorrect-link-error="incorrectLinkError"
       @addLink="(newLink) => addLink(newLink)"
     />
 
