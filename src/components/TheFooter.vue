@@ -21,7 +21,7 @@ export default {
 </script>
 
 <template>
-  <footer class="bg-very-dark-violet px-6 py-14">
+  <footer class="relative bg-very-dark-violet px-6 py-14">
     <nav
       class="mx-auto flex max-w-6xl flex-col items-center justify-between gap-10 lg:flex-row lg:items-start"
     >
@@ -60,5 +60,21 @@ export default {
         </div>
       </div>
     </nav>
+
+    <div class="absolute bottom-0 left-0 right-0 pb-1 text-center text-sm">
+      <span class="inline-block">
+        Challenge by
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          class="underline hover:text-cyan"
+          >Frontend Mentor</a
+        >.
+      </span>
+      <span class="inline-block">
+        Coded by
+        <a href="https://github.com/danaYatsuta" class="underline hover:text-cyan">Dana Yatsuta</a>.
+      </span>
+    </div>
   </footer>
 </template>
