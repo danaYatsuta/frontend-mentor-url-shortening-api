@@ -58,7 +58,7 @@ export default {
     class="flex items-center rounded-lg bg-dark-violet bg-shorten-mobile bg-right-top bg-no-repeat p-6 md:bg-shorten-desktop md:px-16 md:py-14"
   >
     <form @submit.prevent="onSubmit" class="flex w-full flex-col gap-4 md:flex-row md:gap-6">
-      <div class="relative grow">
+      <div class="relative flex grow flex-col gap-2">
         <input
           type="text"
           placeholder="Shorten a link here..."
