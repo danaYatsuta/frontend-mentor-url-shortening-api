@@ -8,7 +8,7 @@ export default {
 </script>
 
 <template>
-  <div class="items-center gap-5 rounded-lg bg-white p-4 text-base md:flex md:text-lg">
+  <div class="items-center gap-5 rounded-lg bg-white p-4 text-base md:flex md:px-6 md:text-lg">
     <div class="grow items-center justify-between divide-y divide-gray/50 md:flex md:divide-none">
       <div class="pb-3 text-very-dark-violet md:pb-0">
         {{ url }}
