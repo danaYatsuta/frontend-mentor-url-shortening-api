@@ -1,8 +1,8 @@
 <script>
 import TheHeader from './components/TheHeader.vue'
 import TheMobileMenu from './components/TheMobileMenu.vue'
-import TheHero from './components/TheHero.vue'
-import TheLinkList from './components/TheLinkList.vue'
+import TheHeroSection from './components/TheHeroSection.vue'
+import TheShortenLinkSection from './components/TheShortenLinkSection.vue'
 import TheInfoSection from './components/TheInfoSection.vue'
 import TheBoostSection from './components/TheBoostSection.vue'
 import TheFooter from './components/TheFooter.vue'
@@ -11,8 +11,8 @@ export default {
   components: {
     TheHeader,
     TheMobileMenu,
-    TheHero,
-    TheLinkList,
+    TheHeroSection,
+    TheShortenLinkSection,
     TheInfoSection,
     TheBoostSection,
     TheFooter
@@ -45,11 +45,11 @@ export default {
   <TheMobileMenu ref="mobileMenu" :mobileMenuOpened="mobileMenuOpened" />
 
   <main>
-    <TheHero />
+    <TheHeroSection />
 
     <div class="mt-40 flex flex-col items-center bg-very-dark-blue/5 px-6 pb-20 lg:pb-36">
       <div class="w-full max-w-6xl">
-        <TheLinkList class="-translate-y-20" />
+        <TheShortenLinkSection class="-translate-y-20" />
       </div>
 
       <TheInfoSection class="mt-2 md:mt-8" />
