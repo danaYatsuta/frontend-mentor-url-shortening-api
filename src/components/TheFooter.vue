@@ -63,7 +63,7 @@ export default {
     </nav>
 
     <div class="absolute bottom-0 left-0 right-0 pb-1 text-center text-sm">
-      <span class="inline-block">
+      <span>
         Challenge by
         <a
           href="https://www.frontendmentor.io?ref=challenge"
@@ -72,7 +72,8 @@ export default {
           >Frontend Mentor</a
         >.
       </span>
-      <span class="inline-block">
+
+      <span class="whitespace-pre">
         Coded by
         <a href="https://github.com/danaYatsuta" class="underline hover:text-cyan">Dana Yatsuta</a>.
       </span>
